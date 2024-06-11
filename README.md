@@ -11,5 +11,5 @@ La página principal ya está realizada, solo le hace falta los elementos de la 
 
  Al igual que en la página principal, se les dará a los usuarios un apartado de "Consulta" en el que se verá a través de su ID del código QR el saldo de la tarjeta y la fecha de vencimiento.
 
-Es más facil y comodo para los usuarios el folio de la tarjeta, el mio por ejemplo es "020176" que un ID del código QR
+Es más facil y comodo para los usuarios el folio de la tarjeta, el mio por ejemplo es "020176" que un ID del código QR para el apartado de saldo y fecha de vencimiento
  
