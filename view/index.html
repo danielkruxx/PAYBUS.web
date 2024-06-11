@@ -23,6 +23,7 @@
           <li><a href="../view/index.html" class="nav-link px-2 text-white">Inicio</a></li>
           <li><a href="#¿Quiénes somos?" class="nav-link px-2 text-white">¿Quiénes somos?</a></li>
           <li><a href="#Misión y Visión" class="nav-link px-2 text-white">Misión y Visión</a></li>
+          <li><a href="#Consulta" class="nav-link px-2 text-white">Consulta tu saldo</a></li>
           <li><a href="#Síguenos" class="nav-link px-2 text-white">Síguenos</a></li>
         </ul>
 
@@ -107,6 +108,37 @@
               las alternativas de recargas al público, dando lugar un sistema de recaudo eficiente, transparente y
               seguro.</p>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="b-example-divider"></div>
+    <section id="Consulta">
+      <div class="container px-4 py-5" id="featured-4">
+        <h2 class="pb-2 border-bottom">Consulta tu saldo</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
+          <h3 class="fs-2 text-body-emphasis">Escribe tu folio</h3>
+          <!-- Aquí comienza el formulario para escribir el folio -->
+          <form>
+            <label for="folioInput" class="form-label"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Folio:</font></font></label>
+            <input type="text" class="form-control" id="Folio" placeholder="Escribe tu folio de la tarjeta" value="" required="">
+            <br>
+            <input class="btn btn-primary" type="submit" value="Consultar">   
+            <input class="btn btn-primary" type="reset" value="Borrar">       
+          </form>
+          <!-- Aquí termina el formulario -->
+          <!-- Aquí comienza el cuadro de resultado para el saldo -->
+          <div id="resultadoSaldo" style="display:none;">
+            <h4>Resultado de la consulta de saldo:</h4>
+            <p>Tu saldo es: $0.00</p>
+          </div>
+          <!-- Aquí termina el cuadro de resultado para el saldo -->
+          <!-- Aquí comienza el cuadro de resultado para la fecha de vencimiento -->
+          <div id="resultadoFecha" style="display:none;">
+            <h4>Fecha de vencimiento:</h4>
+            <p>La fecha de vencimiento es: DD/MM/AAAA</p>
+          </div>
+          <!-- Aquí termina el cuadro de resultado para la fecha de vencimiento -->
         </div>
       </div>
     </section>
